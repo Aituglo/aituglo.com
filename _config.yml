@@ -1,14 +1,12 @@
 # Site settings
-title: Aitublog
+title: Aituglo
 header-img: img/home-bg.jpg
 email: ckhouani@live.fr
 copyright_name: Aituglo
-description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: ""
 url: "https://aituglo.github.io"
 twitter_username: Aituglo
 github_username: Aituglo
-facebook_username:  StartBootstrap
 email_username:  ckhouani@live.fr
 
 # Google Analytics
