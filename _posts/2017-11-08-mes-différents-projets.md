@@ -3,7 +3,7 @@ title: Mes différents projets
 date: 2017-11-08T18:01:57.956Z
 subtitle: Quelques infos sur mes projets en cours
 author: Aituglo
-header-img: /assets/images/istock-518310332.jpg
+header-img: /assets/images/projets.jpg
 layout: post
 ---
 Salut à tous,
