@@ -21,7 +21,7 @@ Me concernant, j'ai une passion en particulier : l'informatique, que je pratique
 - MySQL
 - Versioning: GIT
 
-##Expériences personnelles:
+## Expériences personnelles:
 
 - Participation en Seconde du concours Alkindi étant une compétition de cryptographie auquel je suis arrivé en demi-final
 
