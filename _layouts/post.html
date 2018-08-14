@@ -1,67 +1,54 @@
 ---
 layout: default
 ---
+{% include fr/nav.html %}
 
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                    <h2 class="subheading">{{ page.subtitle }}</h2>
-                    {% endif %}
-                    <span class="meta">Ecrit par {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} le {{ page.date | date: "%-d %B %Y" }}</span>
+<section id="blog">
+    <!-- Post Header -->
+    <div class="user-details">
+        <h1>{{ page.title }}</h1>
+        <span class="meta">Ecrit par {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} le {{ page.date | date: "%-d %B %Y" }}</span>
+    </div>
+
+
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                    {{ content }}
+
+
+                        {% if page.previous.url %}
+                            <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"  title="{{page.previous.title}}">&larr; Article précédent</a>
+                        {% endif %}
+                        {% if page.next.url %}
+                            <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"  title="{{page.next.title}}">Article suivant &rarr;</a>
+                        {% endif %}
+
+                    <div id="disqus_thread"></div>
+                        <script type="text/javascript">
+                            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                            var disqus_shortname = 'aituglo'; // required: replace example with your forum shortname
+                            // var disqus_developer = 1; // Comment out when the site is live
+                            var disqus_identifier = "{{ page.url }}";
+                    
+                            /* * * DON'T EDIT BELOW THIS LINE * * */
+                            (function() {
+                                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                            })();
+                        </script>
+                        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
                 </div>
             </div>
         </div>
-    </div>
-</header>
+    </article>
 
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-				{{ content }}
-
-                <hr>
-
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Article précédent</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Article suivant &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
-
-                <div id="disqus_thread"></div>
-                    <script type="text/javascript">
-                        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                        var disqus_shortname = 'aituglo'; // required: replace example with your forum shortname
-                        // var disqus_developer = 1; // Comment out when the site is live
-                        var disqus_identifier = "{{ page.url }}";
-                
-                        /* * * DON'T EDIT BELOW THIS LINE * * */
-                        (function() {
-                            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                        })();
-                    </script>
-                    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-            </div>
-        </div>
-    </div>
-</article>
-
-<hr>
+    <hr>
+</section>

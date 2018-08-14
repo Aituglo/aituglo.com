@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div id="particles-js">
+    <div class="header">
+        <h1>
+          <span class="site-title">{{site.username}}</span>
+          <span class="site-description">Software Developer</span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="Send email" href="mailto:ckhouani@live.fr"><i class="icon fa fa-envelope"></i></a>
+          <a aria-label="My Twitter" target="_blank" href="https://twitter.com/Aituglo"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+          <a aria-label="My Github" target="_blank" href="https://github.com/Aituglo"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+          <a class="link" href="/blog">Blog</a>
+        </div>
+    </div>
+    <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>
+
+<section id="about">
+    {% include en/about.html %}
+</section>
+<section id="projects">
+    {% include en/projects.html %}
+</section>

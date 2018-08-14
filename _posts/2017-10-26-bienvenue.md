@@ -4,6 +4,7 @@ date: 2017-10-30T23:00:00.000Z
 subtitle: Différentes infos à propos de ce que vous allez trouver sur ce blog
 author: Aituglo
 header-img: /assets/images/innovation_blog.jpg
+layout: post
 ---
 Bonjour à tous et bienvenue sur mon blog. Ce n’est pas la première que je décide de me lancer dans un blog, mais c'est la première fois que ça va parler de ma vie et du dev, donc c'est vraiment des sujets qui me tiennent à cœur et que je veux développer pour m'aider à avancer au maximum dans mes différents projets. Bon du coup on va passer au vif du sujet :
 

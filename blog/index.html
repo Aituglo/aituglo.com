@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% include fr/nav.html %}
+
+<section id="blog">
+    <div class="user-details">
+        <h1>Blog</h1>
+    </div>
+    {% for post in site.posts %}
+        <div class="blog-item">
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            {% if loopindex == 1 %}
+                <div class="contents">
+            {% else %}
+                <div class="contents-right">
+            {% endif %}
+                <h3> {{ post.title }} </h3>
+                {% if post.subtitle %}
+                <p>
+                    {{ post.subtitle }}
+                </p>
+                {% endif %}
+                <a class="project-link" href="{{ post.url | prepend: site.baseurl }}">En savoir plus</a>
+            </div>
+        </div>
+    {% endfor %}
+
+</section>
+
+  
