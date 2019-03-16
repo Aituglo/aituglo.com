@@ -1,32 +1,72 @@
 ---
-layout: default
+layout: blog_layout
+pagination:
+  enabled: true
 ---
 
-{% include fr/nav.html %}
+{% include nav.html %}
 
-<section id="blog">
-    <div class="user-details">
-        <h1>Blog</h1>
-    </div>
-    {% for post in site.posts %}
-        <div class="blog-item">
-            {% assign loopindex = forloop.index | modulo: 2 %}
-            {% if loopindex == 1 %}
-                <div class="contents">
-            {% else %}
-                <div class="contents-right">
-            {% endif %}
-                <h3> {{ post.title }} </h3>
-                {% if post.subtitle %}
-                <p>
-                    {{ post.subtitle }}
-                </p>
-                {% endif %}
-                <a class="project-link" href="{{ post.url | prepend: site.baseurl }}">En savoir plus</a>
-            </div>
+<!-- Page Header -->
+<header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>Blog</h1>
+          </div>
         </div>
-    {% endfor %}
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
 
-</section>
+          {% for post in paginator.posts %}
 
-  
+          <article class="post-preview">
+            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+              <h2 class="post-title">{{ post.title }}</h2>
+              {% if post.subtitle %}
+              <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+              {% else %}
+              <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+              {% endif %}
+            </a>
+            <p class="post-meta">Écrit par
+              {% if post.author %}
+              {{ post.author }}
+              {% else %}
+              {{ site.author }}
+              {% endif %}
+              le {{ post.date | date: '%d/%m/%Y' }} &middot; {% include read_time.html content=post.content %}</p>
+          </article>
+          
+          <hr>
+          
+          {% endfor %}
+
+        <!-- Pager -->
+        {% if paginator.total_pages > 1 %}
+
+        <div class="clearfix">
+
+          {% if paginator.previous_page %}
+          <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
+            Newer<span class="d-none d-md-inline"> Posts</span></a>
+          {% endif %}
+
+          {% if paginator.next_page %}
+          <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span
+              class="d-none d-md-inline"> Posts</span> &rarr;</a>
+          {% endif %}
+
+        </div>
+
+        {% endif %}
+
+
+      </div>
+    </div>
+  </div>

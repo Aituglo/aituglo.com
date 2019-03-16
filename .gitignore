@@ -1,5 +1,5 @@
 _site
 .sass-cache
-package-lock.json
 node_modules
-.DS_STORE
+Gemfile.lock
+*.gem

@@ -10,9 +10,7 @@ index:
 
 # User settings
 username: Aituglo
-user_description: Developpeur débutant
-user_title: Software Developer
-email: ckhouani@live.fr
+email: contact@aituglo.com
 twitter_username: Aituglo
 github_username:  Aituglo
 gplus_username:  Aituglo
@@ -20,5 +18,14 @@ gplus_username:  Aituglo
 # Google-analytics
 google-analytics:
   id: "UA-92359360-1"
+
+  # Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "blog/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
 
 exclude: ['package.json', 'src' , 'node_modules']
