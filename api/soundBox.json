@@ -5,8 +5,8 @@
       "sounds": [
         {
           "id": 1,
-          "title": "WTF BOOM",
-          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/base/wtf_boom.mp3",
+          "title": "Bim Bam Boom",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/base/bimbamboom.mp3",
           "color": "#1abc9c"
         }
       ]
@@ -20,12 +20,6 @@
           "title": "Chacal",
           "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/kelly.mp3",
           "color": "#1abc9c"
-        },
-        {
-          "id": 4,
-          "title": "WTF BOOM",
-          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/base/wtf_boom.mp3",
-          "color": "#1abf8c"
         }
       ]
     }
