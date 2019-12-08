@@ -20,6 +20,12 @@
           "title": "Oooh",
           "url": "https://raw.githubusercontent.com/zmxv/react-native-sound-demo/master/advertising.mp3",
           "color": "#1abc9c"
+        },
+        {
+          "id": 4,
+          "title": "WTF BOOM",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/base/wtf_boom.mp3",
+          "color": "#1abf8c"
         }
       ]
     }
