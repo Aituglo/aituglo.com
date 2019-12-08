@@ -242,6 +242,84 @@
           "title": "Alors Euhh",
           "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/alors.aac",
           "color": "#2A8EFF"
+        },
+        {
+          "id": 5,
+          "title": "Vos copies",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/copies.aac",
+          "color": "#2A8EFF"
+        },
+        {
+          "id": 6,
+          "title": "Calculer",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/calculer.aac",
+          "color": "#2A8EFF"
+        },
+        {
+          "id": 7,
+          "title": "CCP",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/ccp.aac",
+          "color": "#2A8EFF"
+        },
+        {
+          "id": 8,
+          "title": "Delete",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/delete.aac",
+          "color": "#2A8EFF"
+        },
+        {
+          "id": 9,
+          "title": "Eleve Faible",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/faible.aac",
+          "color": "#2A8EFF"
+        },
+        {
+          "id": 10,
+          "title": "Informatique",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/informatique.aac",
+          "color": "#2A8EFF"
+        },
+        {
+          "id": 11,
+          "title": "Inverse",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/inverse.aac",
+          "color": "#2A8EFF"
+        },
+        {
+          "id": 12,
+          "title": "Eleve mediocre",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/mediocre.aac",
+          "color": "#2A8EFF"
+        },
+        {
+          "id": 13,
+          "title": "Une idée",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/romain.aac",
+          "color": "#2A8EFF"
+        },
+        {
+          "id": 14,
+          "title": "Return",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/return.aac",
+          "color": "#2A8EFF"
+        },
+        {
+          "id": 15,
+          "title": "Shape",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/shape.aac",
+          "color": "#2A8EFF"
+        },
+        {
+          "id": 16,
+          "title": "PUTAIN BORDEL",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/putainbordel.aac",
+          "color": "#dd8e25"
+        },
+        {
+          "id": 17,
+          "title": "Duj",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/duj.aac",
+          "color": "#dd8e25"
         }
       ]
     }
