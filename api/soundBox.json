@@ -7,7 +7,7 @@
           "id": 1,
           "title": "Bim Bam Boom",
           "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/base/bimbamboom.mp3",
-          "color": "#1abc9c"
+          "color": "#FF4571"
         }
       ]
     },
@@ -20,6 +20,24 @@
           "title": "Chacal",
           "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/kelly.mp3",
           "color": "#1abc9c"
+        },
+        {
+          "id": 4,
+          "title": "Niveau Maths",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/niveau_math.acc",
+          "color": "#2A8EFF"
+        },
+        {
+          "id": 5,
+          "title": "Pennel 20/20",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/pennel.acc",
+          "color": "#2A8EFF"
+        },
+        {
+          "id": 6,
+          "title": "Alors Euhh",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/alors.acc",
+          "color": "#2A8EFF"
         }
       ]
     }
