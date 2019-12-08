@@ -6,7 +6,217 @@
         {
           "id": 1,
           "title": "Bim Bam Boom",
-          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/base/bimbamboom.mp3",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/bimbamboom.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 2,
+          "title": "John Cena",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/AND HIS NAME IS JOHN CENA.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 3,
+          "title": "Aww",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/AWW.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 4,
+          "title": "Badum Tss",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/BA DUM TSS.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 5,
+          "title": "Boom",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/BOOM.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 6,
+          "title": "Bruh",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/BRUH.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 7,
+          "title": "Burp",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/BURP.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 8,
+          "title": "Buzzer",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/BUZZER.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 9,
+          "title": "Burp",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/BURP.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 10,
+          "title": "Car Horn",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/CAR HORN.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 11,
+          "title": "Laught",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/CARTOON LAUGH.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 12,
+          "title": "Censor",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/CENSOR BEEP.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 13,
+          "title": "Ka Boom",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/COD ZOMBIES KA BOOM.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 14,
+          "title": "Creepy Suspens",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/CREEPY SUSPENSE.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 15,
+          "title": "Crickets",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/CRICKETS CHIRPING.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 16,
+          "title": "D'oh",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/D'OH.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 17,
+          "title": "Explosion",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/EXPLOSION.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 18,
+          "title": "Fail",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/FAIL - WHA WHA VERSION.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 19,
+          "title": "Fart 1",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/FART.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 20,
+          "title": "FART 2",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/FART #2.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 21,
+          "title": "Ha go emm",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/HA GOT EMM.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 22,
+          "title": "Mlg horns",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/MLG HORNS.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 23,
+          "title": "My life is a lie",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/MY LIFE IS A LIE.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 24,
+          "title": "No god",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/NO GOD PLEASE NO.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 25,
+          "title": "A few moment",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/SPONGEBOB TIME CARDS - A FEW MOMENTS LATER.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 26,
+          "title": "An eternity",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/SPONGEBOB TIME CARDS - ONE ETERNITY LATER.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 27,
+          "title": "Super hot fire",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/SUPER HOT FIRE OOOHHH.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 28,
+          "title": "Surprise",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/SUPER HOT FIRE OOOHHH.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 29,
+          "title": "Suspense 1",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/SUSPENSE - SUDDEN.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 30,
+          "title": "Suspense 2",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/SUSPENSE - SUDDEN #2.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 31,
+          "title": "They ask you",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/THEY ASK YOU HOW YOU ARE.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 32,
+          "title": "Titanic",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/memeTITANIC FLUTE FAIL.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 33,
+          "title": "Yay",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/YAY.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 34,
+          "title": "To be continued",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/TO BE CONTINUED.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 35,
+          "title": "Windows XP",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/WINDOWS XP START UP.mp3",
+          "color": "#FF4571"
+        },
+        {
+          "id": 36,
+          "title": "You Suck",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/YOU SUCK YOU JACKASS.mp3",
           "color": "#FF4571"
         }
       ]
@@ -16,25 +226,25 @@
       "name": "MP",
       "sounds": [
         {
-          "id": 3,
+          "id": 1,
           "title": "Chacal",
           "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/kelly.mp3",
           "color": "#1abc9c"
         },
         {
-          "id": 4,
+          "id": 2,
           "title": "Niveau Maths",
           "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/niveau_math.aac",
           "color": "#2A8EFF"
         },
         {
-          "id": 5,
+          "id": 3,
           "title": "Pennel 20/20",
           "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/pennel.aac",
           "color": "#2A8EFF"
         },
         {
-          "id": 6,
+          "id": 4,
           "title": "Alors Euhh",
           "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/alors.aac",
           "color": "#2A8EFF"
