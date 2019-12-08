@@ -24,19 +24,19 @@
         {
           "id": 4,
           "title": "Niveau Maths",
-          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/niveau_math.acc",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/niveau_math.aac",
           "color": "#2A8EFF"
         },
         {
           "id": 5,
           "title": "Pennel 20/20",
-          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/pennel.acc",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/pennel.aac",
           "color": "#2A8EFF"
         },
         {
           "id": 6,
           "title": "Alors Euhh",
-          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/alors.acc",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/mp/alors.aac",
           "color": "#2A8EFF"
         }
       ]
