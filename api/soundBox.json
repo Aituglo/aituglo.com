@@ -52,12 +52,6 @@
           "color": "#FF4571"
         },
         {
-          "id": 9,
-          "title": "Burp",
-          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/BURP.mp3",
-          "color": "#FF4571"
-        },
-        {
           "id": 10,
           "title": "Car Horn",
           "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/CAR HORN.mp3",
@@ -119,8 +113,8 @@
         },
         {
           "id": 20,
-          "title": "FART 2",
-          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/FART #2.mp3",
+          "title": "Fart 2",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/FART2.mp3",
           "color": "#FF4571"
         },
         {
@@ -180,7 +174,7 @@
         {
           "id": 30,
           "title": "Suspense 2",
-          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/SUSPENSE - SUDDEN #2.mp3",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/SUSPENSE - SUDDEN2.mp3",
           "color": "#FF4571"
         },
         {
@@ -192,7 +186,7 @@
         {
           "id": 32,
           "title": "Titanic",
-          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/memeTITANIC FLUTE FAIL.mp3",
+          "url": "https://raw.githubusercontent.com/aituglo/aituglo.github.io/master/assets/sounds/meme/TITANIC FLUTE FAIL.mp3",
           "color": "#FF4571"
         },
         {
