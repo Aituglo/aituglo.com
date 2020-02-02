@@ -4,22 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "bundle exec jekyll serve"
   },
   "author": "Cassim Khouani",
   "license": "MIT",
   "dependencies": {
-    "browser-sync": "^2.18.6",
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^2.0.0",
-    "gulp-imagemin": "^3.1.1",
-    "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^2.0.0",
-    "bootstrap": "4.3.1",
+    "bootstrap": "4.4.1",
+    "browser-sync": "^2.26.7",
     "font-awesome": "4.7.0",
-    "jquery": "3.3.1",
-    "startbootstrap-clean-blog": "5.0.4"
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "3.4.1",
+    "startbootstrap-clean-blog": "5.0.8"
   }
 }
