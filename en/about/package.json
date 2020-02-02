@@ -1,0 +1,51 @@
+{
+    "title": "Cassim Khouani - Resume",
+    "name": "aituglo.com",
+    "version": "0.0.13",
+    "scripts": {
+        "start": "gulp watch",
+        "gulp": "gulp"
+    },
+    "description": "Cassim Khouani's resume built using a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://aituglo.com",
+    "license": "MIT",
+    "author": "Cassim Khouani",
+    "contributors": [
+        "David Miller (http://davidmiller.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Aituglo/aituglo.github.io"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.8.1",
+        "bootstrap": "4.3.1",
+        "datatables.net-bs4": "^1.10.19",
+        "datatables.net-responsive-bs4": "^2.2.3",
+        "jquery": "^3.4.1",
+        "jquery.easing": "^1.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "del": "4.0.0",
+        "gulp": "4.0.0",
+        "gulp-autoprefixer": "6.0.0",
+        "gulp-clean-css": "4.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-header": "2.0.7",
+        "gulp-jsonminify": "^1.1.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "^1.0.1"
+    }
+}
